@@ -15,6 +15,7 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
+  flex: 0 0 auto;
 }
 
 .footer {
@@ -24,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 auto;
 }
 
 .sidebar {
@@ -48,6 +50,7 @@ p {
 
 .content {
   display: flex;
+  flex: auto;
 }
 
 a {
